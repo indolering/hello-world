@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "homepage": "https://github.com/indolering/hello-world",
+  "authors": [
+    "indolering <zachlym@indolering.com>"
+  ],
+  "description": "\"Simple JS file which prints hello world. Intended for testing new project initializations and package management/dependency resolution.\"",
+  "main": "hello.js",
+  "keywords": [
+    "test",
+    "hello",
+    "hello-world",
+    "es6-modules"
+  ],
+  "license": "Public Domain",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "qunit": "~1.14.0"
+  }
+}
