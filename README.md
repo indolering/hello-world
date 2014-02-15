@@ -20,4 +20,5 @@ As a bonus, `$()` will return `#hello` and `$('#id')`, `$('.class')`,
 I couldn't think of any other possible features.
 
 ## Hacking
-To install qUnit to run the test files run `bower install` in the CLI.
+To install qUnit to run the test files cd into `bower_components/hello-world`
+and run `bower install --dev`.
