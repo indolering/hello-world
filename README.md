@@ -18,3 +18,6 @@ As a bonus, `$()` will return `#hello` and `$('#id')`, `$('.class')`,
 `$('element')` all work as expected.
 
 I couldn't think of any other possible features.
+
+## Hacking
+To install qUnit to run the test files run `bower install` in the CLI.

@@ -14,11 +14,7 @@
     "test",
     "hello",
     "hello-world",
-    "amd",
-    "commonjs",
-    "require",
-    "es6-modules",
-    "modules"
+    "hello world"
   ],
   "author": "indolering",
   "license": "Public Domain",
