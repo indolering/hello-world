@@ -10,8 +10,9 @@ if (typeof(document) !== 'undefined') {
     //document.title=="hello world"
 
     document.hello = hello();
-
   }
+} else {
+  module.exports = hello;
 }
 
 //test on console
@@ -39,3 +40,4 @@ var $ = function(e) {
   e = e || '#hello';
   return document.querySelectorAll(e);
 };
+

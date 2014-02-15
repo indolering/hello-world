@@ -21,4 +21,4 @@ I couldn't think of any other possible features.
 
 ## Hacking
 To install qUnit to run the test files cd into `bower_components/hello-world`
-and run `bower install --dev`.
+and run `bower install`.
