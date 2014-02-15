@@ -1,0 +1,31 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "description": "Simple JS file which prints hello world. Intended for testing new project initializations and package management/dependency resolution.",
+  "main": "hello.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indolering/hello-world.git"
+  },
+  "keywords": [
+    "test",
+    "hello",
+    "hello-world",
+    "amd",
+    "commonjs",
+    "require",
+    "es6-modules",
+    "modules"
+  ],
+  "author": "indolering",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/indolering/hello-world/issues"
+  },
+  "devDependencies": {
+    "qunit": "~0.5.18"
+  }
+}
