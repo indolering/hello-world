@@ -1,15 +1,20 @@
-hello-world
+Hello World
 ===========
 
-Powerful javascript file which says hello to the **entire world**!
+Extremely powerful javascript function which says 'hello' to the *entire* world!
 
 I was playing around with the 6 or so package managers for Javascript and I was
 surprised to find that there was no hello world on NPM, so I wrote this one.
 
-If hello.js detects a document object it will replace the body and title with
-"hello world" after the onload event occurs.
+Hello.js will also return "hello world" to the console and return "hell world"
+via self-executing function.
 
-It will also return "hello world" to the console and it finishes off
-by returning "hell world" using an anonymous, self-executing function.
+If hello.js detects a document object it will append
+`<h1 id='hello'>hello world</h1>` to the body, change the title to
+"hello world", and add the global var `document.hello` to the body which
+contains "hello world".
+
+As a bonus, `$()` will return `#hello` and `$('#id')`, `$('.class')`,
+`$('element')` all work as expected.
 
 I couldn't think of any other possible features.
